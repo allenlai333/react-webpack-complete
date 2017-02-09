@@ -1,0 +1,12 @@
+{
+    //設定轉碼規則
+    //所有Babel工具和模塊的使用，都必須先寫好.babelrc
+    "presets": [
+        "es2015",
+        "stage-0",
+        "react"
+    ],
+    "plugins": [
+        "react-hot-loader/babel"
+    ]
+}
